@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head><script src = "javascript.js"> </script> </head>
+<body>
+
+
+<form id=myForm>
+	
+	<button type="button" id="rect" onclick="javascript:rectFunc()">Rectangle</button>
+	<button type="button" id="squ" onclick="javascript:squrFunc()">Square</button>
+	<button type="button" id="circ" onclick="javascript:circFunc()">Circle</button>
+	<button type="button" id="tri" onclick="javascript:triFunc()">Triangle</button>
+	<button type="button" id="hex" onclick="javascript:hexFunc()">Hexagon</button>
+</form>
+<canvas id="myCanvas" width="200" height="200">
+</canvas>
+
+<form>
+	<p id = "rectL"> Length: </p>
+	<input id="length">
+	<p id = "rectB"> Breadth: </p>
+	<input id="breadth">
+	<button type="button" id="sub1" onclick="javascript:area1()">Submit</button>
+		<p id="per"> Perimeter:</p>
+	<p id="per1"> </p>
+	<p id="area">Area:</p>
+	<p id="area1"></p>
+	
+	<p id = "squrSide"> Square Side: </p>
+	<input id= "squareSide">
+	<button type="button" id="sub2" onclick="javascript:area2()">Submit</button>
+	
+	<p id = "circR">Circle Radius: </p>
+	<input id="circleRadius">
+	<button type="button" id="sub3" onclick="javascript:area3()">Submit</button>
+	
+	<p id = "triS1"> Side1: </p>
+	<input id="TriSide1">
+	<p id = "triS2"> Side2: </p>
+	<input id="TriSide2">
+	<p id = "triS3"> Side3</p>
+	<input id="TriSide3">
+	<button type="button" id="sub4" onclick="javascript:area4()">Submit</button>
+	
+	<p id = "hexS1"> side1: </p>
+	<input id="hex1">
+	<p id = "hexS2"> Side2: </p>
+	<input id="hex2">
+	<p id = "dia1"> Diagonal1: </p>
+	<input id="d1">
+	<p id = "hexS3"> Side3:</p>
+	<input id="hex3">
+	<p id = "hexS4"> Side4: </p>
+	<input id="hex4">
+	<p id = "dia2"> Diagonal2: </p>
+	<input id="d2">
+	<p id = "hexS5"> Side5: </p>
+	<input id="hex5">
+	<p id = "hexS6"> side6: </p>
+	<input id="hex6">
+	<p id = "dia3"> Diagonal3: </p>
+	<input id="d3">
+	<button type="button" id="sub5" onclick="javascript:area5()">Submit</button>	
+
+	
+</form> 
+<script> 
+
+	initialize();
+
+</script>
+</body>
+</html>
